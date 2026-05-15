@@ -27,8 +27,7 @@ public class GPoseResizerWindow : Window
         Action saveConfig)
         : base("XIVWindowResizer###xivwindowresizer_gpose",
             ImGuiWindowFlags.NoCollapse | ImGuiWindowFlags.NoResize |
-            ImGuiWindowFlags.NoScrollbar |
-            ImGuiWindowFlags.AlwaysAutoResize | ImGuiWindowFlags.NoBringToFrontOnFocus)
+            ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.AlwaysAutoResize)
     {
         _windowSizeHelper = windowSizeHelper;
         _getOriginalSize = getOriginalSize;
