@@ -38,7 +38,9 @@ public sealed class Plugin : IDalamudPlugin
     private WindowSizeHelper _windowSizeHelper { get; init; }
 
     private readonly WindowSystem _windowSystem = new("XIVWindowResizer");
+
     private GPoseResizerWindow _gposeWindow;
+    
     private Configuration _config;
 
     public Plugin()
